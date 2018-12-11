@@ -8,7 +8,7 @@ import numpy as np
 url = "https://tfhub.dev/google/elmo/2"
 embed = hub.Module(url)
 
-data = pd.read_csv('spam.csv', encoding='latin-1')
+data = pd.read_csv('Datasets/Kaggle/spam_sms.csv', encoding='latin-1')
 
 y = list(data['v1'])
 x = list(data['v2'])
