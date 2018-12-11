@@ -4,7 +4,6 @@ from keras.models import Sequential
 import pandas as pd
 import numpy as np
 
-
 data = pd.read_csv("Datasets/Kaggle/spam.csv")
 texts = []
 labels = []
